@@ -9,4 +9,6 @@ typedef struct cdsll_struct {
 	cdsll_t* next;
 } cdsll_t;
 
+int cdsll_create(cdsll_t** llp);
+
 #endif
